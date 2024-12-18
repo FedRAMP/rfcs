@@ -13,8 +13,6 @@ organizations, or individuals interested in cybersecurity and cloud services.
 All RFCs will provide alternate comment submission methods for people unfamiliar
 with GitHub or who prefer to submit comments differently.
 
-### **How will FedRAMP request comments?**
-
 ## How will FedRAMP request comments?
 
 FedRAMP will copy this repo to initiate an RFC for specific topics. All
