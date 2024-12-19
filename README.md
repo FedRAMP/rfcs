@@ -54,10 +54,6 @@ It is important that each bit of feedback is _concise_ and _actionable_,
 providing enough information to allow the document maintainers to adequately
 address the feedback.
 
-> **Please follow our
-> [Code of Conduct](https://github.com/FedRAMP/rfcs/blob/main/CODE_OF_CONDUCT.md)
->  at all times!**
-
 ### How FedRAMP will participate
 
 The FedRAMP team may interact with the public discussion in this repository in a
