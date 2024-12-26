@@ -57,7 +57,7 @@ TABLE OF CONTENTS
 
 [**RIC Attestation Form	18**](#ric-attestation-form)
 
-# **Overview** {#overview}
+# **Overview**
 
 Optional FedRAMP Review Initiation Checks (RIC) help cloud service providers, independent assessors, and federal agency partners understand how FedRAMP evaluates and verifies the completeness, consistency, accuracy, and clarity of an authorization package. Following these checks properly will enable expedited review by FedRAMP and increase the likelihood of a smooth FedRAMP authorization process.
 
@@ -81,7 +81,7 @@ The appropriate personnel to perform the checks for a cloud service offering wil
 
 Some parts of checks are strictly editorial in nature – for example, ensuring that a file is present, a diagram is legible, or a plan contains all the sections specified by a template. These parts are labeled as \[Editorial\]. 
 
-# **Check 1: Scope** {#check-1:-scope}
+# **Check 1: Scope**
 
 The cloud service provider must perform an analysis of the Integrated Inventory Workbook (IIW), vulnerability scans, authorization boundary diagram (ABD), and the associated SSP sections to answer the following questions.   
 NOTE: For Rev. 5, see SSP Sections 8.1 and 9.1 and Appendix Q. For Rev. 4, see SSP Sections 9.2, 9.4, and 10.1.
@@ -95,7 +95,7 @@ NOTE: For Rev. 5, see SSP Sections 8.1 and 9.1 and Appendix Q. For Rev. 4, see S
 
  
 
-# **Check 2: Visibility** {#check-2:-visibility}
+# **Check 2: Visibility**
 
 The cloud service provider must perform an analysis of the IIW, vulnerability scans, and POA\&M deliverables to answer the following questions:
 
@@ -103,7 +103,7 @@ The cloud service provider must perform an analysis of the IIW, vulnerability sc
 | :---- | :---- |
 | Are Network, OS, DB, Web, Container, and SAST/SCA scans performed as applicable on all IIW components? | Yes No |
 
-# **Check 3: Governance** {#check-3:-governance}
+# **Check 3: Governance** 
 
 The cloud service provider must perform an analysis of the SSP (table where the System Owner, Model, and ISSO are identified) to answer the following questions.  
 NOTE: FedRAMP does not review packages for private clouds, grant a FedRAMP Authorized designation, or list private clouds on the FedRAMP Marketplace because the concept of “reuse” does not apply.
@@ -115,11 +115,11 @@ NOTE: FedRAMP does not review packages for private clouds, grant a FedRAMP Autho
 | If the cloud service offering is listed as non-public, do the SSP and Access Control Policy document how customer restrictions are enforced via the sales pipeline? | Yes No N/A |
 | Does the System Owner have the organizational authority to address risk for *all* components, processes, and people included in the scope of system policies (budget, resources, charter, etc.)?  | Yes No |
 
-# **Check 4: SSP Front Matter and Attachments/Appendices** {#check-4:-ssp-front-matter-and-attachments/appendices}
+# **Check 4: SSP Front Matter and Attachments/Appendices**
 
 The cloud service provider must perform the following checks around the SSP front matter and attachments/appendices.
 
-## **Check 4A: ISCP and CP test report** {#check-4a:-iscp-and-cp-test-report}
+## **Check 4A: ISCP and CP test report** 
 
 | Does the package include an Information System Contingency Plan (ISCP)? \[Rev. 5 \-  SSP Appendix G; Rev. 4 \- SSP Attachment 6\] \[Editorial\] | Yes No |
 | :---- | :---- |
@@ -128,7 +128,7 @@ The cloud service provider must perform the following checks around the SSP fron
 | Is the CP test report from within the last 12 months? \[Editorial\] | Yes No |
 | Does the CP test report include the parts (date, lessons learned, etc.) from the FedRAMP ISCP Template? Does the test indicate whether the cloud service provider is able to meet its RTO and RPO objectives? | Yes No |
 
-## **Check 4B: Rationale for N/A controls** {#check-4b:-rationale-for-n/a-controls}
+## **Check 4B: Rationale for N/A controls** 
 
 Review the CIS Worksheet tab in the CIS/CRM workbook to quickly identify the controls that are marked N/A. \[Rev. 5 \- SSP Appendix J; Rev. 4 \- SSP Attachment 9\] If there are none, this check does not apply, so skip to the next check (check 4C).  
 Cloud service providers often misidentify controls as N/A when the capability exists but is not authorized for use per system policies. For example, many cloud service providers consider AC-2(2) to be N/A because temporary/emergency accounts are not used in the environment. FedRAMP considers this control to be applicable. In the AC-2(2) implementation statement, the cloud service provider should reference the policy that prohibits the creation of temporary/emergency accounts and describe any technical controls in place to prevent the creation of and/or audit unauthorized accounts.
@@ -137,7 +137,7 @@ Cloud service providers often misidentify controls as N/A when the capability ex
 | :---- | :---- |
 | Are controls marked N/A only if they are not technically or functionally applicable to the system? | Yes No |
 
-## **Check 4C: Consistency between CRM and SSP** {#check-4c:-consistency-between-crm-and-ssp}
+## **Check 4C: Consistency between CRM and SSP** 
 
 | Do the control originations specified in the SSP Control Summary Information table match the CIS/CRM workbook entries? \[Rev. 5 \- SSP Appendix J; Rev. 4 \- SSP Attachment 9\] | Yes No |
 | :---- | :---- |
@@ -146,7 +146,7 @@ Cloud service providers often misidentify controls as N/A when the capability ex
 | For controls that indicate a customer responsibility, is there a corresponding entry in the CRM within the CIS/CRM workbook that addresses every distinct use case (e.g., unique services or features) where customer responsibilities apply? | Yes No |
 | For controls inherited from other cloud service offering vendors, does the CRM match the vendors’ CRM lists of inheritable controls? | Yes No N/A |
 
-## **Check 4D: Diagram readability and consistency** {#check-4d:-diagram-readability-and-consistency}
+## **Check 4D: Diagram readability and consistency** 
 
 The SSP’s authorization boundary diagram (ABD), network diagram, and data flow diagram (DFD) are either included within the SSP \[Rev. 5 \- Section 8.1; Rev. 4 \- Sections 9.2, 9.4, and 10.1\] or are provided as separate attachments. Some cloud service providers choose to combine the ABD, network diagram, and DFDs into a single holistic diagram. This is acceptable.
 
@@ -154,7 +154,7 @@ The SSP’s authorization boundary diagram (ABD), network diagram, and data flow
 | :---- | :---- |
 | If separate files are provided for diagrams, are all of the following true for each of those files?  The file opens properly. \[Editorial\] The specific filename is referenced in the associated SSP section with versioning information. \[Editorial\] Each diagram within the separate file(s) has the same figure number corresponding with the figure number used in the SSP. All text within the diagrams is searchable. \[Editorial\] | Yes No N/A |
 
-## **Check 4E: ABD and narrative consistency** {#check-4e:-abd-and-narrative-consistency}
+## **Check 4E: ABD and narrative consistency** 
 
 This involves comparing the ABD to the narrative sections and tables within the SSP to identify any inconsistencies in documenting the services used by the cloud service offering.
 
@@ -167,12 +167,12 @@ Note: For Rev. 5, see SSP Sections 8.1 and 8.2, and Tables 6.1 and 7.1. For Rev.
 | For each service identified as FedRAMP Authorized, does its name match the FedRAMP Marketplace naming convention? | Yes No N/A |
 | For each transport service, is its destination depicted? Does supporting text describe the purpose of data delivered to its destination? | Yes No |
 
-## **Check 4F: External services with federal data/metadata** {#check-4f:-external-services-with-federal-data/metadata}
+## **Check 4F: External services with federal data/metadata** 
 
 | For each interconnected external service that stores/processes federal government data and/or metadata, is one of the following true? The external service is FedRAMP-authorized or FISMA-authorized at the same or higher impact level as the cloud service offering, based on the impact level (high, moderate, low) of federal government data and/or metadata that is stored/processed in the external service. The external service is either lacking a FedRAMP or FISMA authorization altogether OR is not authorized at the same or higher impact level, but there is a corresponding POA\&M that describes the cloud service provider's plans to remediate the risk by moving impacted functionality to a FedRAMP or FISMA authorized service at the same or higher impact level that describes mitigating factors that may reduce the risk.  | Yes No N/A |
 | :---- | :---- |
 
-## **Check 4G: Architecture documentation content review** {#check-4g:-architecture-documentation-content-review}
+## **Check 4G: Architecture documentation content review** 
 
 | Are all data flows crossing the boundary depicted in the ABD and include the following? All customer and cloud service offering administrator access The flow of software releases from update services to production components (e.g., application updates or patches) Flows to the customer's site (e.g., access to agency’s identity management service) Component-to-component flows In general, depicting flows to groups such as VPCs is insufficient. cloud service providers may make reasonable exceptions, such as depicting a single flow from a scanner going to a text box that describes the components accessed by the scanner (rather than a separate flow to each scanned component). | Yes No |
 | :---- | :---- |
@@ -183,7 +183,7 @@ Note: For Rev. 5, see SSP Sections 8.1 and 8.2, and Tables 6.1 and 7.1. For Rev.
 | Does the ABD depict the alternate processing and storage site? Is there a corresponding narrative description? Are differences between alternate site configuration and primary site configuration depicted and described? | Yes No |
 | In the network diagram, are all of the following true? Is the authoritative DNS server for external access to the cloud service offering (SC-20) depicted? Is the recursive DNS server for external access from the cloud service offering's boundary (SC-21) depicted? Is the recursive server inside a FedRAMP Authorized boundary? Are the connections from cloud service offering components to the recursive server trusted?  Are subnets clearly depicted and consistent with SSP narratives, including SC-7 control description? Do subnets adhere to structures described in the [FedRAMP Subnets White Paper](https://www.fedramp.gov/assets/resources/documents/FedRAMP_subnets_white_paper.pdf), including publicly accessible components in separate subnets and operational and management components in separate subnets? | Yes No |
 
-## **Check 4H: Data flow documentation review** {#check-4h:-data-flow-documentation-review}
+## **Check 4H: Data flow documentation review** 
 
 For the following checks, see SSP sections 8.1 and 8.2 (for Rev. 5\) and 10.1 (for Rev. 4).
 
@@ -195,7 +195,7 @@ For the following checks, see SSP sections 8.1 and 8.2 (for Rev. 5\) and 10.1 (f
 | Are flows for backup and alternate processing sites shown on the DFD(s)? | Yes No |
 | Are network components where encryption can terminate (e.g., load balancers and firewalls) included on the DFD(s)? | Yes No |
 
-## **Check 4I: CM-6 control narrative** {#check-4i:-cm-6-control-narrative}
+## **Check 4I: CM-6 control narrative** 
 
 Review the control narrative for CM-6. \[Rev. 5 \- SSP appendix A; Rev. 4 \- SSP section 13\]
 
@@ -203,8 +203,7 @@ Review the control narrative for CM-6. \[Rev. 5 \- SSP appendix A; Rev. 4 \- SSP
 | :---- | :---- |
 | Does it state that all relevant STIGs have been applied based on the core DoD Security Requirement Guides (SRGs) and corresponding Technology SRGs? (e.g., Application SRG, Network SRG, Operating System SRG, Policy SRG) | Yes No |
 
-## **Check 4J: CP-9 control narrative** {#check-4j:-cp-9-control-narrative}
-
+## **Check 4J: CP-9 control narrative** 
 Review the control description for CP-9. \[Rev. 5 \- SSP appendix A; Rev. 4 \- SSP section 13\] NOTE: Data must be backed up and not "mirrored" or "replicated."
 
 | Does part (a) specify the user-level information that is being backed up, frequency and type of backups (at least daily incremental and weekly full), where backups are retained, and how many copies (at least three copies \[one copy online\])? | Yes No |
@@ -212,7 +211,7 @@ Review the control description for CP-9. \[Rev. 5 \- SSP appendix A; Rev. 4 \- S
 | Does part (b) specify the system-level information that is being backed up, frequency and type of backups (at least daily incremental and weekly full), where backups are retained, and how many copies (at least three copies \[one copy online\])? | Yes No |
 | Does part (c) specify the system documentation that is being backed up, frequency and type of backups (at least daily incremental and weekly full), where backups are retained, and how many copies (at least three copies \[one copy online\])? | Yes No |
 
-## **Check 4K: IA-2 control narrative** {#check-4k:-ia-2-control-narrative}
+## **Check 4K: IA-2 control narrative** 
 
 Review the control description for IA-2(6) \[Rev. 5\] or IA-2(11) \[Rev. 4\]. \[Rev. 5 \- SSP appendix A; Rev. 4 \- SSP section 13\]
 
@@ -225,7 +224,7 @@ Review the control description for IA-2(6) \[Rev. 5\] or IA-2(11) \[Rev. 4\]. \[
 | Does each have a tool (by vendor) and protocol level (e.g., PIV, OTP, Push) depiction of MFA? | Yes No |
 | Is PIV/CAC support indicated for all federal government personnel access? | Yes No |
 
-## **Check 4L: IA-5 control narrative** {#check-4l:-ia-5-control-narrative}
+## **Check 4L: IA-5 control narrative** 
 
 | Does each access mode meet authenticator requirements? Low baseline, Rev. 5: MFA is required per the FedRAMP baseline. Low baseline, Rev. 4: Single-factor is acceptable per NIST SP 800-63B AAL1. Moderate baseline, Rev. 5 and Rev. 4: MFA is required per NIST SP 800-63B AAL2. High baseline, Rev. 5: MFA is required per NIST SP 800-63B AAL3. Password and hard token OTP are no longer accepted. High baseline, Rev. 4: MFA is required per NIST SP 800-63B AAL3. Password and hard token OTP will also be accepted. | Yes No |
 | :---- | :---- |
@@ -234,26 +233,26 @@ Review the control description for IA-2(6) \[Rev. 5\] or IA-2(11) \[Rev. 4\]. \[
 | Does each access mode meet SP 800-63B requirements (e.g., soft tokens acceptable for Moderate baseline, hard tokens required for High baseline)? | Yes No |
 | If the cloud service offering provides identity management as a part of the service offering, does the SSP control description include all of the following: How authentication is implemented for cloud service offering access How AAL authentication is supported for customer deployment. In particular: The cloud service offering’s capability to meet the requirements in item 1 of this check for each impact level The customer responsibilities for compliant configuration at each impact level How IAL and FAL are supported for customer deployment (as appropriate) At least one compliant configuration exists for the capabilities described for items 5b and 5c of this check | Yes No |
 
-## **Check 4M: IA-8 control narrative** {#check-4m:-ia-8-control-narrative}
+## **Check 4M: IA-8 control narrative** 
 
 NOTE: This control applies regardless of whether the customer is or is not using PIV to access the service.
 
 | Does the SSP control narrative for IA-8(1) indicate that the back-end technical implementation supports an agency customer's use of PIV (e.g., can accept SAML assertions)? Does it include having a capability in place for accepting and validating PIV when coupled with a customer’s identity provider (IdP)? | Yes No |
 | :---- | :---- |
 
-## **Check 4N: RA-5 control narrative** {#check-4n:-ra-5-control-narrative}
+## **Check 4N: RA-5 control narrative** 
 
 | Does the control narrative for RA-5 indicate the vulnerability scanning tool(s) used, the frequency of scanning performed (at least monthly), and the types of components being scanned (at minimum, the network infrastructure components, operating systems, databases, web applications, and container images where used)? | Yes No |
 | :---- | :---- |
 | Does the control narrative for RA-5(5) indicate that all of the vulnerability scans performed are via privileged or credentialed access? | Yes No |
 
-## **Check 4O: SC-7 control narrative** {#check-4o:-sc-7-control-narrative}
+## **Check 4O: SC-7 control narrative** 
 
 | Is a logical or physical (where applicable/appropriate) subnet structure in place consistent with the [*FedRAMP Subnets White Paper*](https://www.fedramp.gov/assets/resources/documents/FedRAMP_subnets_white_paper.pdf)? | Yes No N/A |
 | :---- | :---- |
 | For the management planes and the operations planes, are their publicly accessible components in a public subnet? Are their other components in a private subnet? | Yes No |
 
-## **Check 4P: SC-13 control narrative** {#check-4p:-sc-13-control-narrative}
+## **Check 4P: SC-13 control narrative** 
 
 Review the control description for SC-13 to answer the following for all components within the authorization boundary:
 
@@ -261,13 +260,27 @@ Review the control description for SC-13 to answer the following for all compone
 | :---- | :---- |
 | For each area of data-at-rest (DAR) (e.g., residing in databases, logs, backups, and storage), is one of the following true? The data-at-rest is encrypted using FIPS-validated or documented NSA-approved CMs. The data-at-rest is encrypted through the appropriate technical implementation of a FedRAMP Authorized service and completion of appropriate customer responsibilities (enabling encryption on the database, etc.) The data-at-rest is encrypted by CMs that are not FIPS-validated or NSA-approved, but these CMs are documented in the POA\&M. | Yes No |
 
-# **RIC Attestation Form** {#ric-attestation-form}
+# **RIC Attestation Form** 
 
 The RIC attestation form is illustrated here for informational purposes. The final version of this form to be completed and submitted as part of each package will be made available in an editable form outside of this document.
 
  
 
-| *The \[Federal Agency Name\], \[Cloud Service Provider Name\], and \[Independent Assessor Organization Name\]* attest that the checks from RIC Parts 1 and 2 have been completed and validated, and represent the *\[Cloud Service Offering Name\]* authorization package as accurately as possible. All failed RIC checks are documented and explained below as comments. Agency Partner Comments: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ CSP Comments: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ IA Comments: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Agency Partner Representative: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ CSP Representative: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ IA Representative: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  Date:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  |
+| *The \[Federal Agency Name\], \[Cloud Service Provider Name\], and \[Independent Assessor Organization Name\]* attest that the checks from RIC Parts 1 and 2 have been completed and validated, and represent the *\[Cloud Service Offering Name\]* authorization package as accurately as possible. All failed RIC checks are documented and explained below as comments. 
+
+Agency Partner Comments: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+CSP Comments: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+IA Comments: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+Agency Partner Representative: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+CSP Representative: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  Date: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+
+IA Representative: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  Date:\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_  
+
+|
 | ----- |
 | *v1.4*  |
 
