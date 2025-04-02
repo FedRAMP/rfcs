@@ -21,6 +21,19 @@ way.
 > providers and agencies before the issuance of such guidance or other FedRAMP
 > directives"
 
+### Open RFCs
+
+_There are no currently open RFCs._
+
+### Historical / Closed RFCs
+
+| ID                  | Request for Comment On                                         | Description                                                                                                                                                                                               | Opened     | Closed     |
+| ------------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- |
+| [0004](rfc/0004.md) | [Boundary Policy](rfc/0004.md)                                 | This draft policy opens discussion on clarifications for the documentation and assessment of the FedRAMP boundary and the reuse of FedRAMP authorized cloud service offerings by cloud service providers. | 2025-01-16 | 2025-04-02 |
+| [0003](rfc/0003.md) | [Review Initiation Checks (RICs)](rfc/0003.md)                 | These optional checklists will help cloud service providers self-verify the completeness of FedRAMP authorization packages.                                                                               | 2024-12-26 | 2025-04-02 |
+| [0002](rfc/0002.md) | [Proposed Revisions to FedRAMP 3PAO Requirements](rfc/0002.md) | FedRAMP is proposing revisions to six requirements and an appendix for the American Association for Laboratory Accreditation (A2LA) R311 requirements for 3PAOs.                                          | 2024-12-19 | 2025-04-02 |
+| [0001](rfc/0001.md) | [A New Commment Process for FedRAMP](rfc/0001.md)              | Extended open discussion period for feedback on the pilot FedRAMP RFC process using GitHub.                                                                                                               | 2024-12-18 | 2025-04-02 |
+
 ## How will FedRAMP request comments?
 
 FedRAMP will communicate to the public about open RFCs via its various social
