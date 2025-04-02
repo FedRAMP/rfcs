@@ -36,7 +36,7 @@ channels, including blogs, email lists, and more. Multiple RFCs may be run
 simultaneously by the team, and the
 [status of all RFCs can be seen here](https://fedramp.gov/rfcs).
 
-### Providing feedback
+#### **Providing feedback**
 
 There are multiple ways to provide feedback on a full RFC:
 
@@ -83,18 +83,18 @@ will be shared publicly with appropriate implementation activities.
 _Currently, only members of the FedRAMP team can initiate the formal RFC
 process._
 
-## Why should I submit RFC feedback?
+### **Why should I submit RFC feedback?**
 
 FedRAMP stakeholders, including cloud service providers (CSPs), security
 professionals, government agencies, and industry experts, may provide public
 feedback on these documents for several key reasons.
 
 - Influencing Policy and Framework Development: FedRAMP documents, such as
-  updates to security guidelines, assessment frameworks, or requirements impact
-  stakeholders directly. By providing feedback, stakeholders have an opportunity
-  to shape the policies to ensure they are practical, effective, and align with
-  industry standards. This can help ensure that the requirements and guidelines
-  are feasible for implementation and improve overall security.
+  updates to security guidelines, assessment frameworks, or requirements,
+  directly impact stakeholders. By providing feedback, stakeholders have an
+  opportunity to shape the policies to ensure they are practical, effective, and
+  aligned with industry standards. This can help ensure that the requirements
+  and guidelines are feasible for implementation and improve overall security.
 
 - Addressing Practical Implementation Challenges: Stakeholders who are directly
   involved in the FedRAMP authorization or in the process of securing federal
@@ -119,9 +119,8 @@ feedback on these documents for several key reasons.
 
 - Mitigating Security Risks: Security professionals may provide feedback to
   ensure that FedRAMP security guidelines are rigorous enough to mitigate
-  evolving cybersecurity threats. Their insights help ensure that the
-  government's security posture remains up-to-date and effective in protecting
-  sensitive data.
+  evolving cybersecurity threats. Their insights help ensure the government's
+  security posture remains up-to-date and effectively protects sensitive data.
 
 - Encouraging Innovation: By participating in the public feedback process,
   stakeholders can propose innovative approaches, highlight emerging
