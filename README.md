@@ -2,16 +2,24 @@
 
 The Federal Risk and Authorization Management Program (FedRAMP) intends to
 engage continuously and iteratively with our stakeholders. This repository will
-serve as an ongoing digital meeting place for us to hear your experiences and
+be used as an ongoing digital meeting place for us to hear your experiences and
 perspectives.
 
-All FedRAMP Requests For Comments (RFCs) are open to responses from the public
-and government, including representatives from cloud service providers,
-third-party independent assessment organizations, federal agencies, industry
-organizations, or individuals interested in cybersecurity and cloud services.
+All FedRAMP RFCs are open to responses from the public and government, including
+representatives from cloud service providers, third party independent assessment
+organizations, federal agencies, industry organizations, or individuals with an
+interest in cybersecurity and cloud services.
 
-All RFCs will provide alternate comment submission methods for people unfamiliar
-with GitHub or who prefer to submit comments differently.
+All RFCs will provide alternate methods for providing comments for folks who are
+unfamiliar with GitHub or would simply prefer to submit comments in a different
+way.
+
+> _44 U.S. Code § 3609(a)(6)_ requires FedRAMP to:
+>
+> "establish and maintain a public comment process for proposed guidance and
+> other FedRAMP directives that may have a direct impact on cloud service
+> providers and agencies before the issuance of such guidance or other FedRAMP
+> directives"
 
 ## How will FedRAMP request comments?
 
@@ -46,10 +54,10 @@ It is important that each bit of feedback is _concise_ and _actionable_,
 providing enough information to allow the document maintainers to adequately
 address the feedback.
 
-#### **How FedRAMP will participate**
+### How FedRAMP will participate
 
-The FedRAMP team may interact with the public discussion in this repository in a
-limited manner, similar to a digital town hall, as follows:
+The FedRAMP team may interact with the public discussion repository in a limited
+manner, similar to a digital town hall, by:
 
 - Requesting clarification or additional information if the content of a comment
   is not clear to the FedRAMP reviewer.
@@ -65,12 +73,12 @@ limited manner, similar to a digital town hall, as follows:
 > endorsement and does not represent concurrence with the content.
 
 Each public comment request may have multiple rounds, with comments being
-addressed in no smaller than 30 day increments.
+addressed in no smaller than 30-day increments.
 
-The end of the public comment period **does not mean FedRAMP will immediately
-implement the policy.** Other governance activities and final approval will be
-required. When ready for adoption or publication, final policies or documents
-will be widely shared publicly, with appropriate implementation activities.
+The end of the public comment period **does not mean the policy will be
+immediately implemented.** Other governance activities and final approval will
+be required; when ready for adoption or publication, final policies or documents
+will be shared publicly with appropriate implementation activities.
 
 _Currently, only members of the FedRAMP team can initiate the formal RFC
 process._
@@ -79,7 +87,7 @@ process._
 
 FedRAMP stakeholders, including cloud service providers (CSPs), security
 professionals, government agencies, and industry experts, may provide public
-feedback on these documents for several key reasons:
+feedback on these documents for several key reasons.
 
 - Influencing Policy and Framework Development: FedRAMP documents, such as
   updates to security guidelines, assessment frameworks, or requirements,
@@ -90,9 +98,9 @@ feedback on these documents for several key reasons:
 
 - Addressing Practical Implementation Challenges: Stakeholders who are directly
   involved in the FedRAMP authorization or in the process of securing federal
-  use may experience unanticipated practical challenges. Public feedback allows
-  these stakeholders to highlight real-world issues, propose solutions, and
-  ensure that policies are aligned with technological trends and operational
+  cloud use may experience unanticipated practical challenges. Public feedback
+  allows these stakeholders to highlight real-world issues, propose solutions,
+  and ensure that policies are aligned with technological trends and operational
   realities.
 
 - Advocating for Cost-Effectiveness and Efficiency: Cloud service providers and
@@ -116,7 +124,7 @@ feedback on these documents for several key reasons:
 
 - Encouraging Innovation: By participating in the public feedback process,
   stakeholders can propose innovative approaches, highlight emerging
-  technologies, and suggest ways to incorporate these into the FedRAMP program.
+  technologies, and suggest ways to incorporate these into improving FedRAMP.
   This ensures that the program remains adaptive to the fast-paced evolution of
   cloud technologies.
 

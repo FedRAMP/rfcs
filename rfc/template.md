@@ -1,12 +1,13 @@
 # Request for Comment Title
 
-- Status:
-- Created By: FedRAMP
-- Start Date: 
-- Closing Date: 
-- Short Name: rfc-
+> - Status:
+> - Created By: FedRAMP
+> - Start Date: 
+> - Closing Date: 
+> - Short Name: rfc-
 
-**Where to Comment:**
+## Where to Comment
+
 - Discussion Forum: 
 - Public Comment Spreadsheet:
 - Email: info@fedramp.gov with the subject "RFC #### Feedback"
