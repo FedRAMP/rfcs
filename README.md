@@ -23,14 +23,6 @@ way.
 
 ## How will FedRAMP request comments?
 
-FedRAMP will copy this repo to initiate an RFC for specific topics. All
-discussion and participation will take place in the copy, with the outcome
-merged into this repo when the RFC is closed.
-
-The copied repo will have [Discussions](https://docs.github.com/en/discussions)
-enabled and stakeholders are encouraged to create new discussions with your
-feedback and interact with feedback provided by others.
-
 FedRAMP will communicate to the public about open RFCs via its various social
 channels, including blogs, email lists, and more. Multiple RFCs may be run
 simultaneously by the team, and the
@@ -40,15 +32,12 @@ simultaneously by the team, and the
 
 There are multiple ways to provide feedback on a full RFC:
 
-- Participate in the Discussion
+- Participate in the Discussion thread in the rfcs repository on GitHub
 
 - Follow the instructions in the RFC to use alternative mechanisms for public
-  feedback, such as online forms or email.
-
-- Suggest changes to a document by opening a pull request (you will need to fork
-  the repo first). The pull request must suggest one or more changes and
-  describe the rationale for the change(s). Pull requests will be treated as
-  comments.
+  feedback, such as online forms or email. Note that public submissions via
+  email will be shared publicly; email is intended primarily for agency comments
+  or situations where GitHub is not available.
 
 It is important that each bit of feedback is _concise_ and _actionable_,
 providing enough information to allow the document maintainers to adequately
