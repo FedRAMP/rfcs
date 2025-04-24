@@ -1,4 +1,4 @@
-0005# RFC-0005 Minimum Assessment Scope Standard
+# RFC-0005 Minimum Assessment Scope Standard
 
 Thursday, April 24, 2025
 
