@@ -1,4 +1,4 @@
-# RFC-0006 Significant Change Notification Standard
+# RFC-0007 Significant Change Notification Standard
 
 Thursday, April 24, 2025
 
