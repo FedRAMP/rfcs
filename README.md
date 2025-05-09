@@ -14,22 +14,42 @@ All RFCs will provide alternate methods for providing comments for folks who are
 unfamiliar with GitHub or would simply prefer to submit comments in a different
 way.
 
-> _44 U.S. Code § 3609(a)(6)_ requires FedRAMP to:
+> _44 U.S. Code § 3609 (a)(6)_ requires FedRAMP to:
 >
 > "establish and maintain a public comment process for proposed guidance and
 > other FedRAMP directives that may have a direct impact on cloud service
 > providers and agencies before the issuance of such guidance or other FedRAMP
 > directives"
 
-### Open RFCs
+## FedRAMP Guidance Types
 
-| ID                                                     | Request for Comment On                                                                     | Description                                                                                                                                                                                                                                                                                                                                                                          | Opened     | Closing    |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ---------- |
-| [0007](https://github.com/FedRAMP/rfcs/discussions/19) | [Significant Change Notification Standard](https://github.com/FedRAMP/rfcs/discussions/19) | FedRAMP intends to replace the previous Significant Change Request process with an updated Significant Change Notification standard. The process asserts authorizations granted to cloud service providers include the authority to make changes that are in the best interest of agency customers without asking permission from an authorizing official in advance, in most cases. | 2025-04-24 | 2025-05-25 |
-| [0006](https://github.com/FedRAMP/rfcs/discussions/18) | [20x Phase One Key Security Indicators](https://github.com/FedRAMP/rfcs/discussions/18)    | In FedRAMP 20x, Key Security Indicators summarize the security capabilities expected of cloud-native service offerings to meet FedRAMP Low authorization requirements.                                                                                                                                                                                                               | 2025-04-24 | 2025-05-25 |
-| [0005](https://github.com/FedRAMP/rfcs/discussions/17) | [Minimum Assessment Scope](https://github.com/FedRAMP/rfcs/discussions/17)                 | The FedRAMP Minimum Assessment Scope Standard is an updated approach to determining what is included in a FedRAMP assessment and authorization. The approach avoids the unnecessary detail to support FedRAMP’s ongoing shift from compliance-based to security-based decision making and assessment.                                                                                | 2025-04-24 | 2025-05-25 |
+> _44 U.S. Code § 3609 (a)(3)_ requires FedRAMP to:
+>
+> "develop and publish templates, best practices, technical assistance, and
+> other materials to support the authorization of cloud computing products and
+> services and increase the speed, effectiveness, and transparency of the
+> authorization process..."
 
-### Historical / Closed RFCs
+New in 2025, FedRAMP's approach will focus on three different types of guidance:
+
+- **Standards** are base requirements that can be applied in any environment and
+  will change rarely
+- **Best Practices** support standards with methods, techniques, or examples and
+  may change often
+- **Technical Assistance** supports standards with additional technical nuance
+  to support decision making and may change often
+
+
+
+## Open RFCs
+
+| ID                                                     | Request for Comment On                                                                     | Guidance Type |                                                                                                                                                                                                                                                                                                                                                                                      | Description | Opened     | Closing |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | ---------- | ------- |
+| [0007](https://github.com/FedRAMP/rfcs/discussions/19) | [Significant Change Notification Standard](https://github.com/FedRAMP/rfcs/discussions/19) | Standard      | FedRAMP intends to replace the previous Significant Change Request process with an updated Significant Change Notification standard. The process asserts authorizations granted to cloud service providers include the authority to make changes that are in the best interest of agency customers without asking permission from an authorizing official in advance, in most cases. | 2025-04-24  | 2025-05-25 |
+| [0006](https://github.com/FedRAMP/rfcs/discussions/18) | [20x Phase One Key Security Indicators](https://github.com/FedRAMP/rfcs/discussions/18)    | Standard      | In FedRAMP 20x, Key Security Indicators summarize the security capabilities expected of cloud-native service offerings to meet FedRAMP Low authorization requirements.                                                                                                                                                                                                               | 2025-04-24  | 2025-05-25 |
+| [0005](https://github.com/FedRAMP/rfcs/discussions/17) | [Minimum Assessment Scope](https://github.com/FedRAMP/rfcs/discussions/17)                 | Standard      | The FedRAMP Minimum Assessment Scope Standard is an updated approach to determining what is included in a FedRAMP assessment and authorization. The approach avoids the unnecessary detail to support FedRAMP’s ongoing shift from compliance-based to security-based decision making and assessment.                                                                                | 2025-04-24  | 2025-05-25 |
+
+## Historical / Closed RFCs
 
 | ID                  | Request for Comment On                                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Opened     | Closed     |
 | ------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- |
