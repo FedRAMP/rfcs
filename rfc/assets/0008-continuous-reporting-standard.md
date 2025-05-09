@@ -1,15 +1,15 @@
 # RFC-0008 Continuous Reporting Standard
 
-## Friday, May 9th, 2025
+Friday, May 9th, 2025
 
 ---
 
-**Background**  
+# Background  
 [OMB Circular A-130: Managing Information as a Strategic Resource](https://whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf) defines continuous monitoring as *“maintaining ongoing awareness of information security, vulnerabilities, threats, and incidents to support agency risk management decisions.”*
 
 [The FedRAMP Authorization Act (44 USC § 3609 (a) (1))](https://www.govinfo.gov/app/details/USCODE-2023-title44/USCODE-2023-title44-chap36-sec3609) directs the Administrator of the General Services Administration to *“... develop, coordinate, and implement a process to support agency review, reuse, and standardization, where appropriate, of security assessments of cloud computing products and services, including, as appropriate, oversight of continuous monitoring of cloud computing products and services…”* This responsibility is [delegated to the FedRAMP Director](https://www.gsa.gov/directives-library/gsa-delegations-of-authority-fedramp). 
 
-# **Introduction**
+# Introduction
 
 This FedRAMP standard establishes an updated continuous monitoring reporting process for FedRAMP authorized cloud service providers that requires cloud service providers to maintain direct relationships with their customers for reporting purposes and reduce the burden for continuous monitoring by agencies. Agencies must follow OMB policy and NIST standards when adopting FedRAMP authorized cloud services, including maintaining an ongoing awareness of the security posture of services they use. Providers must ensure such information is available directly to agencies and regularly review it with all participating agencies.
 
@@ -59,7 +59,7 @@ At least the following Key Security Metrics MUST be included in continuous monit
 
 7. **Detailed Component Scan Coverage** \- Numbers and percentage of components covered by the services’s security scanning activities grouped by distinct component type and scan type
 
-# **Application of the Continuous Reporting Standard**
+# Application of the Continuous Reporting Standard
 
 1. Providers MUST make Key Security Metrics available to agencies and FedRAMP in similar human-readable and compatible machine-readable formats. These formats SHOULD follow FedRAMP best practices and technical assistance to ensure maximum reusability.
 
@@ -83,7 +83,7 @@ At least the following Key Security Metrics MUST be included in continuous monit
 
 11. All parties SHOULD follow FedRAMP’s best practices and technical assistance on continuous reporting where applicable.
 
-# **Exceptions to the Continuous Monitoring Reporting Requirements**
+# Exceptions to the Continuous Monitoring Reporting Requirements
 
 Providers MAY be required to provide additional metrics beyond those identified above as a condition of a formal FedRAMP Corrective Action Plan or other agreements with federal agencies.
 
