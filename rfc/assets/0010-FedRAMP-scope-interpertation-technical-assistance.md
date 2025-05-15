@@ -36,22 +36,21 @@ This guidance provides practical examples to help agencies navigate FedRAMP appl
 
 * Single agency operational and configuration responsibility  
 * No assessment to reuse  
-    
-  **Examples:**  
+
+**Examples:**  
+
 * Agency custom applications deployed to FedRAMP authorized IaaS   
 * Agency deployed instances of an app from a FedRAMP authorized PaaS vendors App Storefront  
 * Agency mission systems operated by a single agency with no shared operation or configuration responsibility  
     
-  **Out of Scope Detailed Example \- Data.gov:** GSA operates data.gov, a cloud hosted platform which allows agencies to share open datasets. While multiple agencies can contribute datasets, GSA maintains full responsibility for the systems configuration, operations, and authority to operate. 
+**Out of Scope Detailed Example \- Data.gov:** GSA operates data.gov, a cloud hosted platform which allows agencies to share open datasets. While multiple agencies can contribute datasets, GSA maintains full responsibility for the systems configuration, operations, and authority to operate. 
+    
+> **Analysis:** Single operator; no shared platform responsibility.
 
     
-  **Analysis:** Single operator; no shared platform responsibility.
+**In Scope Detailed Example \- USDA AgCloud Managed Platform Services (AMPS):** AMPS is a fully-managed DISC platform designed to give customers a supported and secure way to cloud computing. AMPS includes security services, patching services, administration services, and inheritable Authority to Operate (ATO) security controls for these managed services. Simply stated, AMPS provides the infrastructure on which customers may deploy their applications.AMPS provides a standardized, secure cloud platform that allows agencies to quickly deploy applications without managing the underlying IT infrastructure. By offering a shared, pre-configured environment with consistent security standards, AMPS assumes responsibility for the underlying platform, while customer agencies manage their applications.
 
-    
-  **In Scope Detailed Example \- USDA AgCloud Managed Platform Services (AMPS):** AMPS is a fully-managed DISC platform designed to give customers a supported and secure way to cloud computing. AMPS includes security services, patching services, administration services, and inheritable Authority to Operate (ATO) security controls for these managed services. Simply stated, AMPS provides the infrastructure on which customers may deploy their applications.AMPS provides a standardized, secure cloud platform that allows agencies to quickly deploy applications without managing the underlying IT infrastructure. By offering a shared, pre-configured environment with consistent security standards, AMPS assumes responsibility for the underlying platform, while customer agencies manage their applications.
-
-
-  **Analysis:** Reusable platform; shared responsibility model.
+> **Analysis:** Reusable platform; shared responsibility model.
 
 ### Social media and communications platforms used in accordance with agency social media policies
 
@@ -64,20 +63,19 @@ This guidance provides practical examples to help agencies navigate FedRAMP appl
 * Not used as an authoritative source for federal information  
 * All federal information in the communication platform is intended for public use  
     
-  **Examples:**  
+**Examples:**  
+
 * Agency social media accounts (e.g., X, Facebook/Meta) including platform AI features (like content suggestions, public analytics, and sentiment analysis) that do not respond on behalf of the agency  
 * Scientific collaboration platforms (protocols.io)  
     
-  **Out of Scope Detailed Example \- Scientific Collaboration:** Agency researchers use protocols.io to communicate with the scientific community and share information. If protocols.io went away, the agency wouldn’t lose any federal information so the platform isn’t within the scope of FedRAMP. 
+**Out of Scope Detailed Example \- Scientific Collaboration:** Agency researchers use protocols.io to communicate with the scientific community and share information. If protocols.io went away, the agency wouldn’t lose any federal information so the platform isn’t within the scope of FedRAMP. 
+
+> **Analysis:** External communication using public information; not an authoritative source.
 
     
-  **Analysis:** External communication using public information; not an authoritative source.
+**In Scope Detailed Example \- Government Collaboration:** Agency teams use collaboration platforms (e.g., Slack, Teams) for internal and cross-agency work, processing and storing sensitive, non-public federal information . Handling this information on behalf of agencies necessitates FedRAMP authorization. 
 
-    
-  **In Scope Detailed Example \- Government Collaboration:** Agency teams use collaboration platforms (e.g., Slack, Teams) for internal and cross-agency work, processing and storing sensitive, non-public federal information . Handling this information on behalf of agencies necessitates FedRAMP authorization. 
-
-    
-  **Analysis:** Handles internal, non-public federal information.
+> **Analysis:** Handles internal, non-public federal information.
 
 ### Search Engines
 
@@ -89,20 +87,19 @@ This guidance provides practical examples to help agencies navigate FedRAMP appl
 * Does not collect or maintain federal information for agencies  
 * Users instructed not to input sensitive federal information  
     
-  **Examples:**  
+**Examples:**  
+
 * Public web search engines (e.g., Google, Bing, Lycos) using only public or non-sensitive federal information  
 * Public AI Chatbots (e.g., ChatGPT, Claude, Grok) using only public or non-sensitive federal information
 
-  **Out of Scope Detailed Example \- AI search chatbot:** An agency uses a public AI Chatbot search to troubleshoot technical issues with a video conferencing system. Search queries of public or non-sensitive federal information may be logged by the vendor, but not FOR the agency. Because no internal data is accessed or trained on, FedRAMP doesn’t apply. 
+**Out of Scope Detailed Example \- AI search chatbot:** An agency uses a public AI Chatbot search to troubleshoot technical issues with a video conferencing system. Search queries of public or non-sensitive federal information may be logged by the vendor, but not FOR the agency. Because no internal data is accessed or trained on, FedRAMP doesn’t apply.
+
+> **Analysis:** Searches public information; does not collect or maintain internal federal information for the agency.
 
 
-  **Analysis:** Searches public information; does not collect or maintain internal federal information for the agency.
+**In Scope Detailed Example \- Internal Data Search:** An agency uses a shared cloud service to index and search internal repositories containing non-public federal information (e.g., documents, emails, databases). Because the service collects, processes, and maintains internal federal information on behalf of the agency, FedRAMP authorization is required.
 
-
-  **In Scope Detailed Example \- Internal Data Search:** An agency uses a shared cloud service to index and search internal repositories containing non-public federal information (e.g., documents, emails, databases). Because the service collects, processes, and maintains internal federal information on behalf of the agency, FedRAMP authorization is required. 
-
-
-  **Analysis:** Collects, processes, and maintains internal agency data for the agency.
+> **Analysis:** Collects, processes, and maintains internal agency data for the agency.
 
 ### Widely available services that provide commercially available information to agencies, but do not collect Federal information
 
@@ -115,28 +112,26 @@ This guidance provides practical examples to help agencies navigate FedRAMP appl
   * The agency does not require the service to retain or provide access to this information after the transaction or service delivery is complete  
 * Risk of unexpected exposure of federal information is accepted because the positive impact on the agency’s mission is greater than the impact of the government’s use of the system being exposed  
     
-  **Examples:**  
+**Examples:**  
+
 * Map services  
 * Public Certificate Authorities (e.g., Let's Encrypt, DigiCert) and DNS Resolvers  
 * Document and Address verification services  
 * Non-IT service providers such as airline ticketing or ride sharing systems
 
-  **Out of Scope Detailed Example \- Janitorial Services Scheduling:** An agency sends building information and access information to a cloud scheduling portal used by their janitorial service company. The company uses the information to ensure that buildings are serviced and that janitors can access the building. 
+**Out of Scope Detailed Example \- Janitorial Services Scheduling:** An agency sends building information and access information to a cloud scheduling portal used by their janitorial service company. The company uses the information to ensure that buildings are serviced and that janitors can access the building.
+
+> **Analysis:** Acquired non-IT service; cloud tool use is incidental; does not maintain federal information for the agency.
 
 
-  **Analysis:** Acquired non-IT service; cloud tool use is incidental; does not maintain federal information for the agency.
+**Out of Scope Detailed Example \- Verification Services:** An agency uses an address-validation service API which returns a true/false “match” and then discards the data. The service doesn’t retain the federal information and there is little risk as the service is authoritative for the information provided (addresses), making it a service that falls outside the FedRAMP scope.
+
+> **Analysis:** Provides commercial data; temporarily processes federal information; does not maintain federal information for the agency.
 
 
-  **Out of Scope Detailed Example \- Verification Services:** An agency uses an address-validation service API which returns a true/false “match” and then discards the data. The service doesn’t retain the federal information and there is little risk as the service is authoritative for the information provided (addresses), making it a service that falls outside the FedRAMP scope. 
+**In Scope Detailed Example \- Verification Services (Identity):** An agency uses a cloud Identity Verification service requiring users to submit PII. The service collects, processes, and stores this sensitive federal information (PII) on behalf of the agency to perform identity proofing and for later review. Maintaining federal PII for an agency function necessitates FedRAMP authorization. 
 
-
-  **Analysis:** Provides commercial data; temporarily processes federal information; does not maintain federal information for the agency.
-
-
-  **In Scope Detailed Example \- Verification Services (Identity):** An agency uses a cloud Identity Verification service requiring users to submit PII. The service collects, processes, and stores this sensitive federal information (PII) on behalf of the agency to perform identity proofing and for later review. Maintaining federal PII for an agency function necessitates FedRAMP authorization. 
-
-
-  **Analysis:** Collects and stores sensitive federal PII on behalf of the agency.
+> **Analysis:** Collects and stores sensitive federal PII on behalf of the agency.
 
 ### Ancillary services whose compromise would pose a negligible risk to Federal information or information systems, such as systems that make external measurements or only ingest information from other publicly available services
 
@@ -148,22 +143,21 @@ This guidance provides practical examples to help agencies navigate FedRAMP appl
 * Doesn’t control or have privileged access to agency systems  
 * A failure or compromise would not compromise the delivery of agency services   
     
-  **Examples:**  
+**Examples:**  
+
 * Basic upstream traffic filtering/DDoS (no decryption, negligible availability requirements)  
 * Basic CAPTCHA services on public facing non-sensitive sites and forms   
 * Public web analytics and uptime monitoring (Pingdom, StatusPage)  
 * Unauthenticated vulnerability and code scanning tools for public facing components or code  
-    
-  **Out of Scope Detailed Example \- Public Monitoring Tool:** An agency uses an external service to monitor its non-critical public website/API availability via pings, logging uptime, and sending alerts. 
+
+**Out of Scope Detailed Example \- Public Monitoring Tool:** An agency uses an external service to monitor its non-critical public website/API availability via pings, logging uptime, and sending alerts. 
+
+> **Analysis:** Externally measures public endpoints; does not ingest or store sensitive federal data.
 
     
-  **Analysis:** Externally measures public endpoints; does not ingest or store sensitive federal data.
+**In Scope Detailed Example \- Integrated Monitoring System:** An agency integrates an Application Performance Monitoring (APM) service into its internal applications. This service collects sensitive federal data like distributed traces and detailed logs from internal sources, often via installed agents or privileged API access to other internal systems.
 
-    
-  **In Scope Detailed Example \- Integrated Monitoring System:** An agency integrates an Application Performance Monitoring (APM) service into its internal applications. This service collects sensitive federal data like distributed traces and detailed logs from internal sources, often via installed agents or privileged API access to other internal systems. 
-
-    
-  **Analysis:** Handles internal, non-public federal information; possesses privileged access to internal systems.
+> **Analysis:** Handles internal, non-public federal information; possesses privileged access to internal systems.
 
   
 
