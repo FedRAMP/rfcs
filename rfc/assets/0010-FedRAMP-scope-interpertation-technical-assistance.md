@@ -8,7 +8,7 @@
 
 OMB Memorandum [M-24-15 "Modernizing the Federal Risk and Authorization Management Program (FedRAMP)](https://www.fedramp.gov/assets/resources/documents/FedRAMP_Policy_Memo.pdf) updated FedRAMP's scope, defining categories of services excluded from its requirements. To ensure consistent application of these exclusions across agencies, the memorandum requires the publication of clarifying guidance, stating in section 3 “*FedRAMP, in consultation with OMB, will publish guidelines for interpreting the categories above, with supporting examples that clearly illustrate what types of services are in and out of scope.*”
 
-The information is provided for public awareness. Reference to any commercial product does not constitute endorsement by GSA. For more information, please see FedRAMP Disclaimers.
+The information is provided for public awareness. Reference to any commercial product does not constitute endorsement by GSA. For more information, please see [FedRAMP Disclaimers](https://www.fedramp.gov/disclaimers/).
 
 # **Introduction**
 
