@@ -41,7 +41,10 @@ New in 2025, FedRAMP's approach will focus on three different types of guidance:
 
 ## Open RFCs
 
-_FedRAMP does not currently have any open RFCs._
+| ID                                                     | Request for Comment On                                                                                              | Guidance Type        | Description                                                                                                                                                                                                                                                                                                             | Opened     | Closing    |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- |
+| [0012](https://github.com/FedRAMP/community/discussions/59) | [FedRAMP Continuous Vulnerability Monitoring Standard](https://github.com/FedRAMP/community/discussions/59) | Standard| The FedRAMP Continuous Vulnerability Monitoring Standard proposes updated requirements for the continuous discovery, assessment, mitigation, and remediation of detected weaknesses in FedRAMP Authorized cloud service offerings.                 | 2025-07-15 | 2025-08-21 |
+
 
 ## Historical / Closed RFCs
 
