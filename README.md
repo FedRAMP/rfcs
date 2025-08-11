@@ -38,11 +38,14 @@ New in 2025, FedRAMP's approach will focus on three different types of guidance:
   may change often
 - **Technical Assistance** supports standards with additional technical nuance
   to support decision making and may change often
+- **Balance Improvement Releases (BIR)** add updates to Rev5 requirements based
+  on improvements to FedRAMP 20x.
 
 ## Open RFCs
 
 | ID                                                     | Request for Comment On                                                                                              | Guidance Type        | Description                                                                                                                                                                                                                                                                                                             | Opened     | Closing    |
 | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------- |
+| [0013](https://github.com/FedRAMP/community/discussions/71) | [SC-7 Boundary Protection Balance Improvement Release](https://github.com/FedRAMP/community/discussions/71) | BIR | This Balance Improvement Release clarifies that boundary protection requirements can be achieved using logical capabilities instead of IETF RFC-950 subnets. | 2025-08-11 | 2025-09-11 |
 | [0012](https://github.com/FedRAMP/community/discussions/59) | [FedRAMP Continuous Vulnerability Management Standard](https://github.com/FedRAMP/community/discussions/59) | Standard| The FedRAMP Continuous Vulnerability Management Standard proposes updated requirements for the continuous discovery, assessment, mitigation, and remediation of detected weaknesses in FedRAMP Authorized cloud service offerings.                 | 2025-07-15 | 2025-08-21 |
 
 
